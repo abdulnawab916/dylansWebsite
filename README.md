@@ -1,5 +1,5 @@
 # dylansWebsite
-A website for my friend Dylan, containng a letter for his Birthday.
+A website for my friend Dylan, containing a letter for his Birthday.
 
 access @ dylantuyen.com
 
