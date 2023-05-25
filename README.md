@@ -1,5 +1,5 @@
 # dylansWebsite
 A website for my friend Dylan, containing a letter for his Birthday.
 
-access it @  [dylantuyen.com] (dylantuyen.com)
+access it @  [Clicke here to view the website](dylantuyen.com)
 
