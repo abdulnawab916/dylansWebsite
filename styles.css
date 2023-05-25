@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
+div {
+  display: flex;
+  flex-direction: column;
+}
+body {
+  margin: 0; 
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              height: 105vh;
+        /*WE are not supposed to know the above. this was just getting the
+        button in the center of the page*/
+  background: linear-gradient(360deg, #8e2503, #0096c7);
+  background-repeat: no-repeat;
+  background-color: #405b9a;
+}
+
+button {
+  
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  background: linear-gradient(124deg,#023e8a, #0096c7);
+  border-width: 10px;
+  color: white;
+  border-color: rgb(221, 199, 199);
+  border: 2px solid;
+  padding: 4em;
+  margin: 0 auto;
+  font-size: 1em;
+  transition: 1s;
+}
+
+.buttonDiv {
+  margin-top: 10%;
+  
+  margin-left: 10%;
+  margin-right: 10%;
+}
+button:hover {
+  border-color: #a3ad2e;
+  color: white;
+  background: linear-gradient(124deg,#023e8a, #057296);
+  box-shadow:0em 0.5em 0.5em -0.3em #57D9FC;
+  transition: all 2s;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  font-size: xx-small;
+  color: white;
+  font-style: italic;
+}
+img {
+  margin: 0 auto;
+  padding: 2em;
+  width: 200px;
+  height: 200px;
+  
+}
+
+@media (max-width: 390px) {
+  body {
+    font-size: xx-small;
+  }
+  img {
+    margin: 0 auto;
+    padding: 2em;
+    width: 100px;
+    height: 100px;
+  }
+
+}
